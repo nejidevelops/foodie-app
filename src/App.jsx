@@ -1,9 +1,10 @@
 import './App.css'
+import { StickyNavbar } from './components/Navbar'
 
 function App() {
   return (
     <>
-      <p>Hello</p>
+      <StickyNavbar />
     </>
   )
 }
