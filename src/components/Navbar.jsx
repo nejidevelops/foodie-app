@@ -1,12 +1,23 @@
 import React from "react";
 import {
   Navbar,
-  MobileNav,
+  Collapse,
   Typography,
   Button,
   IconButton,
-  Card,
 } from "@material-tailwind/react";
+import PropTypes from "prop-types";
+import { FiUser } from "react-icons/fi";
+import { IoCartOutline } from "react-icons/io5";
+
+const IconWrapper = ({ children, size }) => (
+  <span style={{ fontSize: size }}>{children}</span>
+);
+
+IconWrapper.propTypes = {
+  children: PropTypes.node.isRequired,
+  size: PropTypes.number.isRequired,
+};
 
 export function StickyNavbar() {
   const [openNav, setOpenNav] = React.useState(false);
@@ -14,7 +25,7 @@ export function StickyNavbar() {
   React.useEffect(() => {
     window.addEventListener(
       "resize",
-      () => window.innerWidth >= 960 && setOpenNav(false),
+      () => window.innerWidth >= 960 && setOpenNav(false)
     );
   }, []);
 
@@ -60,26 +71,6 @@ export function StickyNavbar() {
           Pricing
         </a>
       </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Pricing
-        </a>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-normal"
-      >
-        <a href="#" className="flex items-center">
-          Pricing
-        </a>
-      </Typography>
     </ul>
   );
 
@@ -89,26 +80,26 @@ export function StickyNavbar() {
         <Typography
           as="a"
           href="#"
-          className="mr-4 cursor-pointer py-1.5 font-medium"
+          className="mr-2 cursor-pointer py-1.5 font-medium text-4xl"
         >
-          Material Tailwind
+          Foo<span className="text-[#E14B00]">die</span>
         </Typography>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2">
           <div className="mr-4 hidden lg:block">{navList}</div>
-          <div className="flex items-center gap-x-1">
-            <Button
-              variant="text"
-              size="sm"
-              className="hidden lg:inline-block"
-            >
-              <span>Log In</span>
+          <div className="flex">
+            <Button variant="text" size="sm" className="hidden lg:inline-block">
+              <IconWrapper size={24}>
+                <FiUser className="text-[#E14B00]" />
+              </IconWrapper>
             </Button>
             <Button
               variant="gradient"
               size="sm"
               className="hidden lg:inline-block"
             >
-              <span>Sign in</span>
+              <IconWrapper size={24}>
+                <IoCartOutline className="text-[#E14B00]" />
+              </IconWrapper>
             </Button>
           </div>
           <IconButton
@@ -150,17 +141,21 @@ export function StickyNavbar() {
           </IconButton>
         </div>
       </div>
-      <MobileNav open={openNav}>
+      <Collapse open={openNav}>
         {navList}
-        <div className="flex items-center gap-x-1">
-          <Button fullWidth variant="text" size="sm" className="">
-            <span>Log In</span>
+        <div>
+          <Button fullWidth variant="text" className="sm:inline-block">
+            <IconWrapper size={32}>
+              <FiUser className="text-[#E14B00]" />
+            </IconWrapper>
           </Button>
-          <Button fullWidth variant="gradient" size="sm" className="">
-            <span>Sign in</span>
+          <Button variant="gradient" size="sm" className="sm:inline-block">
+            <IconWrapper size={32}>
+              <IoCartOutline className="text-[#E14B00]" />
+            </IconWrapper>
           </Button>
         </div>
-      </MobileNav>
+      </Collapse>
     </Navbar>
   );
 }
