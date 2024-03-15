@@ -1,7 +1,7 @@
 import React from "react";
 import {
   Navbar,
-  Collapse,
+  MobileNav,
   Typography,
   Button,
   IconButton,
@@ -65,10 +65,15 @@ export function StickyNavbar() {
         as="li"
         variant="small"
         color="blue-gray"
-        className="p-1 font-normal"
+        className="p-1 font-normal relative"
       >
         <a href="#" className="flex items-center">
           Pricing
+          <div className="absolute top-full left-0 bg-white shadow-md py-2 px-4 mt-1 z-10 hidden">
+            <a href="#" className="block py-1">Option 1</a>
+            <a href="#" className="block py-1">Option 2</a>
+            <a href="#" className="block py-1">Option 3</a>
+          </div>
         </a>
       </Typography>
     </ul>
@@ -141,7 +146,7 @@ export function StickyNavbar() {
           </IconButton>
         </div>
       </div>
-      <Collapse open={openNav}>
+      <MobileNav open={openNav}>
         {navList}
         <div>
           <Button fullWidth variant="text" className="sm:inline-block">
@@ -155,7 +160,7 @@ export function StickyNavbar() {
             </IconWrapper>
           </Button>
         </div>
-      </Collapse>
+      </MobileNav>
     </Navbar>
   );
 }
