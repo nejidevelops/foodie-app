@@ -26,7 +26,7 @@ function Service() {
           </div>
           <div className="px-6 py-4">
             <h2 className="font-bold text-xl mb-2">24/7 Open</h2>
-            <p className="text-base px-4">WOur restaurant is open 24 hours and we are providing the best service for our honorable clients.</p>
+            <p className="text-base px-4">Our restaurant is open 24 hours and we are providing the best service for our honorable clients.</p>
           </div>
         </div>
         <div className="max-w-sm h-80 rounded overflow-hidden shadow-lg flex flex-col justify-center items-center text-center bg-[#f6f6f6] hover:bg-[#ff5001] hover:text-white">
