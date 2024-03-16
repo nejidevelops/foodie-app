@@ -1,4 +1,5 @@
 import './App.css'
+import About from './components/About'
 import Home from './components/Home'
 import { StickyNavbar } from './components/Navbar'
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <StickyNavbar />
       <Home />
+      <About />
     </>
   )
 }
