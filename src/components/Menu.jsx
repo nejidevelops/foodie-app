@@ -1,6 +1,4 @@
 import React from "react";
-import { FaTruck, FaPizzaSlice } from "react-icons/fa";
-import { Ri24HoursFill } from "react-icons/ri";
 
 function Menu() {
   return (
@@ -11,7 +9,7 @@ function Menu() {
         for our honorable clients.
       </p>
       <div className="grid gap-10 px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6] hover:bg-[#ff5001] hover:text-white">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6">
           <img
             className="w-full overflow-hidden object-cover rounded-t-lg h-[40vh]"
             src="https://images.pexels.com/photos/2702674/pexels-photo-2702674.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -28,7 +26,7 @@ function Menu() {
             </button>
           </div>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6] hover:bg-[#ff5001] hover:text-white">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6]">
           <img
             className="w-full overflow-hidden object-cover rounded-t-lg h-[40vh]"
             src="https://images.pexels.com/photos/4109077/pexels-photo-4109077.jpeg?auto=compress&cs=tinysrgb&w=1600"
@@ -45,7 +43,7 @@ function Menu() {
             </button>
           </div>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6] hover:bg-[#ff5001] hover:text-white">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6]">
           <img
             className="w-full overflow-hidden object-cover rounded-t-lg h-[40vh]"
             src="https://images.pexels.com/photos/4057750/pexels-photo-4057750.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -62,7 +60,7 @@ function Menu() {
             </button>
           </div>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6] hover:bg-[#ff5001] hover:text-white">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6]">
           <img
             className="w-full overflow-hidden object-cover rounded-t-lg h-[40vh]"
             src="https://images.pexels.com/photos/2491272/pexels-photo-2491272.jpeg?auto=compress&cs=tinysrgb&w=1600"
