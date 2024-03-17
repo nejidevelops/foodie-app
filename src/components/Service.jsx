@@ -7,7 +7,7 @@ function Service() {
     <div className="h-[100vh] bg-cover bg-center bg-no-repeat flex flex-col items-center justify-center gap-6">
       <h2 className="text-4xl">Our service</h2>
       <p className="text-center w-[420px]">
-        ALl the features you want. Rations makes it easy to build and manage
+        All the features you want. Rations makes it easy to build and manage
         your food order.
       </p>
       <div className="grid gap-10 px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
