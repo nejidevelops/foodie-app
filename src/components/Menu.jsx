@@ -8,7 +8,7 @@ function Menu() {
         Our restaurant is open 24 hours and we are providing the best service
         for our honorable clients.
       </p>
-      <div className="grid gap-10 px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="grid gap-10 px-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         <div className="max-w-sm rounded overflow-hidden shadow-lg h-90 rounded overflow-hidden shadow-lg flex flex-col bg-[#f6f6f6">
           <img
             className="w-full overflow-hidden object-cover rounded-t-lg h-[40vh]"
