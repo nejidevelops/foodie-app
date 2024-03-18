@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <StickyNavbar />
-      {/* <Home />
+      <Home />
       <About />
       <Service />
-      <Menu /> */}
+      <Menu />
       <Review />
     </>
   )
