@@ -151,7 +151,7 @@ function Review() {
               text commonly used to demonstrate the visual form of a document or
               a typeface without relying on meaningful content.
             </p>
-            <button className="border rounded-3xl border-white px-6 py-2 shadow-sm shadow-white">Explore now</button>
+            <button className="border rounded-3xl border-white px-6 py-2 shadow-sm shadow-white hover:shadow-lg hover:shadow-white">Explore now</button>
           </div>
         </div>
       </div>
