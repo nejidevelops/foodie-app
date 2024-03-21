@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Footer from './components/Footer'
 import Home from './components/Home'
 import Menu from './components/Menu'
 import { StickyNavbar } from './components/Navbar'
@@ -10,11 +11,12 @@ function App() {
   return (
     <>
       <StickyNavbar />
-      <Home />
+      {/* <Home />
       <About />
       <Service />
       <Menu />
-      <Review />
+      <Review /> */}
+      <Footer />
     </>
   )
 }
