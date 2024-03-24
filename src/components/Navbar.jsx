@@ -109,7 +109,7 @@ export function StickyNavbar() {
           </div>
           <IconButton
             variant="text"
-            className="ml-auto h-6 w-6 text-inherit hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
+            className="ml-auto h-6 w-6 text-inherit mb-6 hover:bg-transparent focus:bg-transparent active:bg-transparent lg:hidden"
             ripple={false}
             onClick={() => setOpenNav(!openNav)}
           >
@@ -148,7 +148,7 @@ export function StickyNavbar() {
       </div>
       <MobileNav open={openNav}>
         {navList}
-        <div>
+        <div className="flex items-center">
           <Button fullWidth variant="text" className="sm:inline-block">
             <IconWrapper size={32}>
               <FiUser className="text-[#E14B00]" />
