@@ -59,7 +59,7 @@ function Footer() {
         <hr className="my-6 border-gray-200 md:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="flex flex-col md:flex-row items-center md:justify-between">
           <span className="block text-sm text-gray-500 md:text-center dark:text-gray-400">
-            © Copyright 2023 Newton Develops. All Rights Reserved.
+            © Copyright 2024 Newton Develops. All Rights Reserved.
           </span>
           <div className="flex gap-4 mt-4 md:mt-0">
             <FaFacebookF className="text-black bg-white w-6 h-6 px-2 rounded-lg hover:bg-[#fd7645] hover:text-white" />
