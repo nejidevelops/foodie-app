@@ -138,12 +138,12 @@ function Review() {
           </blockquote>
         </div>
 
-        <div className="bg-[#ff7b3d] flex flex-row items-end mt-[10rem] rounded-lg shadow-lg p-8 relative w-[100%] h-[50vh]">
-          <div className="relative w-full h-80 rounded-lg">
+        <div className="bg-[#ff7b3d] flex flex-col md:flex-row items-end mt-[10rem] rounded-lg shadow-lg p-8 relative w-[100%] h-[50vh]">
+          <div className="absolute md:relative w-full h-80 rounded-lg">
             <img
               src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1400"
               alt=""
-              className="absolute w-[50%] h-full -top-20 -left-16 rounded-lg"
+              className="absolute w-[50%] h-full md:-top-20 md:top-0 -left-16 rounded-lg"
             />
           </div>
           <div className="w-[50%] flex flex-col gap-10 text-white absolute right-0 top-10 items-start">
