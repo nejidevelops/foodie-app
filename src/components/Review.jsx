@@ -139,19 +139,25 @@ function Review() {
         </div>
 
         <div className="bg-[#ff7b3d] flex flex-row items-end mt-[10rem] rounded-lg shadow-lg p-8 relative w-[100%] h-[50vh]">
-          <img
-            src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1400"
-            alt=""
-            className="absolute h-80 -top-10 -left-10 rounded-lg"
-          />
+          <div className="relative w-full h-80 rounded-lg">
+            <img
+              src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1400"
+              alt=""
+              className="absolute w-[50%] h-full -top-20 -left-16 rounded-lg"
+            />
+          </div>
           <div className="w-[50%] flex flex-col gap-10 text-white absolute right-0 top-10 items-start">
-            <h2 className="text-4xl w-[440px]">People who like to eat are always best food</h2>
+            <h2 className="text-4xl w-[440px]">
+              People who like to eat are always best food
+            </h2>
             <p className="w-[440px]">
               In publishing and graphic design, Lorem ipsum is a placeholder
               text commonly used to demonstrate the visual form of a document or
               a typeface without relying on meaningful content.
             </p>
-            <button className="border rounded-3xl border-white px-6 py-2 shadow-sm shadow-white hover:shadow-lg hover:shadow-white">Explore now</button>
+            <button className="border rounded-3xl border-white px-6 py-2 shadow-sm shadow-white hover:shadow-lg hover:shadow-white">
+              Explore now
+            </button>
           </div>
         </div>
       </div>
