@@ -138,7 +138,7 @@ function Review() {
           </blockquote>
         </div>
 
-        <div className="bg-[#ff7b3d] flex flex-col md:flex-row items-end mt-[10rem] rounded-lg shadow-lg p-10 md:p-8 relative w-[100%] h-[70vh] md:h-[50vh">
+        <div className="bg-[#ff7b3d] flex flex-row md:flex-row items-end mt-[10rem] rounded-lg shadow-lg p-10 md:p-8 relative w-[100%] h-[70vh] md:h-[50vh">
           <div className="absolute md:relative w-full h-80 rounded-lg">
             <img
               src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1400"
