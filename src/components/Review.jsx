@@ -143,7 +143,7 @@ function Review() {
             <img
               src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1400"
               alt=""
-              className="absolute w-[50%] h-full md:-top-[150px] top-5 -left md:-left-[150px] rounded-lg"
+              className="absolute w-[50%] h-full md:-top-[150px] -top-[50px] -left-[50px] md:-left-[150px] rounded-lg"
             />
           </div>
           <div className="w-[50%] flex flex-col gap-10 text-white absolute right-0 top-10 md:right-[50px] md:top-[150px] items-start">
