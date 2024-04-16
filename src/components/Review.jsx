@@ -138,24 +138,24 @@ function Review() {
           </blockquote>
         </div>
 
-        <div className="bg-[#ff7b3d] flex flex-col md:flex-row items-end mt-[10rem] rounded-lg shadow-lg p-8 relative w-[100%] h-[50vh]">
+        <div className="bg-[#ff7b3d] flex flex-row md:flex-row items-end mt-[10rem] rounded-lg shadow-lg p-10 md:p-8 relative w-[100%] h-[70vh] md:h-[50vh">
           <div className="absolute md:relative w-full h-80 rounded-lg">
             <img
               src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1400"
               alt=""
-              className="absolute w-[50%] h-full md:-top-20 md:top-0 -left-16 rounded-lg"
+              className="absolute w-[50%] h-full md:-top-[150px] -top-[50px] -left-[50px] md:-left-[150px] rounded-lg"
             />
           </div>
-          <div className="w-[50%] flex flex-col gap-10 text-white absolute right-0 top-10 items-start">
-            <h2 className="text-4xl w-[440px]">
+          <div className="w-[50%] flex flex-col gap-10 text-white absolute right-0 top-10 md:right-[50px] md:top-[150px] items-start">
+            <h2 className="text-2xl w-fit md:text-4xl md:w-[440px]">
               People who like to eat are always best food
             </h2>
-            <p className="w-[440px]">
+            <p className="w-fit md:-[440px]">
               In publishing and graphic design, Lorem ipsum is a placeholder
               text commonly used to demonstrate the visual form of a document or
               a typeface without relying on meaningful content.
             </p>
-            <button className="border rounded-3xl border-white px-6 py-2 shadow-sm shadow-white hover:shadow-lg hover:shadow-white">
+            <button className="border rounded-3xl border-white px-4 md:px-6 py-2 shadow-sm shadow-white hover:shadow-lg hover:shadow-white">
               Explore now
             </button>
           </div>
